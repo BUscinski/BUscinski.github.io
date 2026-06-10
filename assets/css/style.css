@@ -62,7 +62,7 @@ nav {
   letter-spacing: 0.02em;
 }
 
-.nav-logo span { color: var(--accent); }
+.nav-logo span { color: var(--text); }
 
 .nav-links {
   display: flex;
@@ -461,6 +461,119 @@ h3 { font-size: 1.15rem; font-weight: 700; }
   padding: 4px 10px;
   border-radius: 20px;
   margin-bottom: 16px;
+}
+
+/* =========================================================
+   Professional Work — GIF-first layout
+   ========================================================= */
+.work-company {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.work-company:last-child { border-bottom: none; }
+
+.work-company-name {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.work-category {
+  margin-bottom: 36px;
+}
+
+.work-category-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.work-gif-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.work-gif-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 220px;
+  max-width: 320px;
+}
+
+.work-gif-block img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.work-gif-block ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.work-gif-block ul li {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  padding-left: 14px;
+  position: relative;
+}
+
+.work-gif-block ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.work-gif-block ul li a {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+}
+
+.work-gif-block ul li a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.work-text-only ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.work-text-only ul li {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding-left: 16px;
+  position: relative;
+}
+
+.work-text-only ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.work-text-only ul li a {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+}
+
+.work-text-only ul li a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 
 /* =========================================================
