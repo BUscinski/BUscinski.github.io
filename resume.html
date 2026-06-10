@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Ben Uscinski</title>
+  <meta name="description" content="Resume for Ben Uscinski — Product Prototyper, HCI engineer/designer.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Ben <span>Uscinski</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="professional.html">Professional Work</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section style="padding: 56px 0 40px;">
+      <div class="container">
+        <div class="section-label">Resume</div>
+        <h1>Download &amp; View</h1>
+        <p class="text-muted mt-16" style="max-width: 560px;">
+          Two versions available depending on the role — the Prototyper resume emphasizes
+          XR and product work; the Systems Engineer version emphasizes education, mentorship,
+          and making complex systems accessible to non-engineers.
+        </p>
+
+        <div class="resume-actions mt-32">
+          <a href="assets/resume/BJU-Resume-Prototyper.pdf" download class="btn btn-primary">
+            &#8595; Download — Prototyper
+          </a>
+          <a href="assets/resume/BJU-Resume-FAU.pdf" download class="btn btn-ghost">
+            &#8595; Download — Systems Engineer / Education
+          </a>
+        </div>
+
+        <div style="margin-top: 12px;">
+          <a href="https://www.linkedin.com/in/benjamin-uscinski/" target="_blank" rel="noopener" class="btn btn-ghost">
+            View LinkedIn Profile
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding: 0 0 80px;">
+      <div class="container">
+        <div class="section-label mb-16">Prototyper Version</div>
+        <div class="resume-embed">
+          <iframe
+            src="assets/resume/BJU-Resume-Prototyper.pdf"
+            title="Ben Uscinski Resume — Prototyper"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        Ben Uscinski &mdash; Pompano Beach, FL &mdash;
+        <a href="mailto:ben.uscinski@gmail.com">ben.uscinski@gmail.com</a> &mdash;
+        <a href="https://www.linkedin.com/in/benjamin-uscinski/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
