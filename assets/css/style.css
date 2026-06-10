@@ -518,6 +518,25 @@ h3 { font-size: 1.15rem; font-weight: 700; }
   line-height: 1.6;
 }
 
+.btn-video {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid rgba(94, 184, 255, 0.3);
+  padding: 5px 12px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.btn-video:hover {
+  background: rgba(94, 184, 255, 0.1);
+  text-decoration: none;
+}
+
 .project-tags {
   display: flex;
   flex-wrap: wrap;
