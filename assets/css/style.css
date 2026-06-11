@@ -251,9 +251,13 @@ h3 { font-size: 1.15rem; font-weight: 700; }
 
 .hardware-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 16px;
   margin-top: 32px;
+}
+
+@media (max-width: 600px) {
+  .hardware-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .hardware-card {
