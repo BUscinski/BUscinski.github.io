@@ -269,7 +269,6 @@ h3 { font-size: 1.15rem; font-weight: 700; }
   transition: border-color 0.2s;
 }
 
-.hardware-card:hover { border-color: var(--accent); }
 
 .hardware-card img {
   width: 80px;
