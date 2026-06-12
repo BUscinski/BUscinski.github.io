@@ -457,6 +457,11 @@ h3 { font-size: 1.15rem; font-weight: 700; }
   color: var(--text-muted);
 }
 
+a.patent-badge:hover {
+  background: rgba(94, 184, 255, 0.2);
+  text-decoration: none;
+}
+
 .patent-badge {
   display: inline-flex;
   align-items: center;
